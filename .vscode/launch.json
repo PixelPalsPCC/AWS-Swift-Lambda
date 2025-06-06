@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Lambda}",
+            "name": "Debug LambdaExample",
+            "program": "${workspaceFolder:Lambda}/.build/debug/LambdaExample",
+            "preLaunchTask": "swift: Build Debug LambdaExample"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Lambda}",
+            "name": "Release LambdaExample",
+            "program": "${workspaceFolder:Lambda}/.build/release/LambdaExample",
+            "preLaunchTask": "swift: Build Release LambdaExample"
+        }
+    ]
+}
